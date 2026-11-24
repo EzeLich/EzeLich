@@ -1,14 +1,10 @@
-### Hi, I'm Ezequiel Lech 
+### Hi, I'm Eze Lech (`@EzeLich`) 👋
 
-Backend, Web3 & Automation Engineer focused on **Python (FastAPI)**, **TypeScript / Node.js**, **Telegram & Discord Bots**, and **zero-custody on-chain verification** across EVM chains (Polygon, Base, Arbitrum, BSC) and Solana.
+Web3, AI & Python/TypeScript Engineer building **zero-custody crypto infrastructure, prediction-market intelligence, and Telegram automation**.
 
-#### 🚀 Featured Live Work
-- **[PayGate USDT](https://chainguard-studio-production.up.railway.app/paygate)** — Multi-tenant Telegram VIP & digital product checkout engine with live RPC verification of ERC-20/SPL USDC & USDT transfers, single-use invite links, and automated expiry management.
-- **ChainGuard & TokenDiet Studio** — Zero-custody wallet scanner, EIP-7702 delegation watchdog, and real-time RPC transaction verifier supporting Base, Arbitrum, Polygon, BSC, and Solana.
+#### 🚀 Live Production Products
+- **[PolyPulse v2 (`polymarket-whale-radar`)](https://chainguard-studio-production.up.railway.app/poly)** — Real-time Polymarket Data API v2 whale tracker, Top-50 PnL overlap detector & Telegram/Discord push alerts ([Repo](https://github.com/EzeLich/polymarket-whale-radar) · [Telegram Bot](https://t.me/ChainGuardVaultBot?start=poly)).
+- **[PayGate USDT (`paygate-usdt`)](https://chainguard-studio-production.up.railway.app/paygate)** — Zero-custody Telegram VIP group paywall & digital checkout verified on-chain across Polygon, BSC, Arbitrum, Base & Solana ([Repo](https://github.com/EzeLich/paygate-usdt) · [Telegram Demo](https://t.me/ChainGuardVaultBot?start=vip)).
 
-#### 🛠️ Core Stack
-- **Languages:** Python, TypeScript, JavaScript, SQL
-- **Backend & Infra:** FastAPI, Uvicorn, SQLite/PostgreSQL, Docker, Railway
-- **Web3 & Messaging:** EVM JSON-RPC (`eth_getTransactionReceipt`), Solana SPL RPC, Telegram Bot API, Webhooks (Standard Webhooks HMAC)
-
-📫 Available for remote freelance contracts, open-source bounties, and custom bot/backend engineering.
+#### 🛠️ Stack
+`Python` · `FastAPI` · `TypeScript` · `Polymarket Data API v2` · `EVM JSON-RPC` · `Solana SPL` · `Telegram Bot API` · `SQLite`
