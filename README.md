@@ -1,4 +1,4 @@
-### Hi, I'm Eze Lech (`@EzeLich`) 👋
+### Hi, I'm Eze Lech 👋
 
 Web3, AI & Python/TypeScript Engineer building **zero-custody crypto infrastructure, prediction-market intelligence, and Telegram automation**.
 
