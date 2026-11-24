@@ -1,4 +1,4 @@
-### Hi, I'm Eze Lech (`@EzeLich`) 👋
+### Hi, I'm Ezequiel Lech 
 
 Backend, Web3 & Automation Engineer focused on **Python (FastAPI)**, **TypeScript / Node.js**, **Telegram & Discord Bots**, and **zero-custody on-chain verification** across EVM chains (Polygon, Base, Arbitrum, BSC) and Solana.
 
