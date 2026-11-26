@@ -11,9 +11,9 @@
    - **Python & Zero-Dependency TypeScript/Node.js SDKs (`paygate_sdk` + `sdk-js/`)**: 1-line MCP tool monetization (`@mcp_tool_paywall` / `withMcpToolPaywall`) and HTTP 402 `x402 v2` route guards (`@require_usdt_payment` / `paygateExpressMiddleware`)
    - **Hosted Multi-Asset Checkout (`/paygate/checkout/{id}`) & Self-Serve Merchant Dashboard (`/paygate/merchant`)**: 7-network switcher (`USDT/USDC` + 1-click native `ETH`, `BNB`, `POL`, `SOL`, `BTC` with live DeFiLlama spot quotes), zero-tx-hash on-chain transfer auto-detection, SHA-256 verifiable receipts, signed HMAC-SHA256 webhooks, and recurring SaaS subscriptions without `MAX_UINT256` token approvals
 
-2. **[ChainGuard MCP v1.4.0 (`EzequielLech/chainguard-mcp`)](https://github.com/EzequielLech/chainguard-mcp)** — 15-tool Web3 security firewall, GitHub Action CI security gate, DeFiLlama yield scanner, ERC-20 allowance revoker, and vault recovery MCP server:
+2. **[ChainGuard MCP v1.4.1 (`EzequielLech/chainguard-mcp`)](https://github.com/EzequielLech/chainguard-mcp)** — 15-tool Web3 security firewall, GitHub Action CI security gate, DeFiLlama yield scanner, ERC-20 allowance revoker, and vault recovery MCP server:
    - **Official MCP Registry**: `io.github.EzequielLech/chainguard-mcp` ([Rated Grade-A `4.2/5.0` on Glama](https://glama.ai/mcp/connectors/io.github.EzequielLech/chainguard-mcp))
-   - **GitHub Action CI Security Gate**: `uses: EzequielLech/chainguard-mcp@v1.4.0` + `chainguard-mcp scan-dir . --fail-on-block --markdown` with native OASIS SARIF 2.1.0 GitHub Code Scanning export (`--sarif`) to block `tx.origin`, `selfdestruct`, unchecked `delegatecall`, reentrancy, invisible Unicode smuggling, and leaked keys on pull requests
+   - **GitHub Action CI Security Gate**: `uses: EzequielLech/chainguard-mcp@v1.4.1` + `chainguard-mcp scan-dir . --fail-on-block --markdown` with native OASIS SARIF 2.1.0 GitHub Code Scanning export (`--sarif`) to block `tx.origin`, `selfdestruct`, unchecked `delegatecall`, reentrancy, invisible Unicode smuggling, and leaked keys on pull requests
    - **Hosted Remote Streamable-HTTP MCP (`2025-06-18`) & Offline CLI**: `https://chainguard-studio-production.up.railway.app/mcp` (EIP-7702 delegation hijack detection, Solana Token-2022 drainer audit, ERC-20 `approve(spender, 0)` revocation builder, and 8-chain dust/hygiene recovery)
 
 ---
