@@ -1,43 +1,43 @@
 ### Ezequiel Lech
 
-**Python, TypeScript & Web3 Infrastructure Engineer** — building non-custodial multi-chain payment gateways (`USDT`, `USDC`, native `ETH`, `BNB`, `POL`, `SOL`, and `Bitcoin Taproot`), HTTP 402 (`x402 v2`) API and MCP monetization SDKs, Streamable-HTTP MCP servers, and automated CI/CD Web3 security firewalls.
+**Python, TypeScript & Web3 Security / Payments Infrastructure** — creator of **ChainGuard MCP** and **PayGate USDT**, published on **GitHub Marketplace**, the **Official Model Context Protocol (MCP) Registry**, and **Glama.ai (Grade-A)**.
+
+- **Official Storefront & Sponsorships (0% Custody, 7 Blockchains):** [chainguard-studio-production.up.railway.app/paygate/me/chainguard](https://chainguard-studio-production.up.railway.app/paygate/me/chainguard)
+- **Instant Public GitHub Repository Security Scorecard:** `https://chainguard-studio-production.up.railway.app/audit-github/{owner}/{repo}`
+- **Live Security, Checkout & Vault Recovery Platform:** [chainguard-studio-production.up.railway.app](https://chainguard-studio-production.up.railway.app)
 
 ---
 
-#### Production Open-Source Software (Official MCP Registry & Glama Grade-A)
+#### Official GitHub Marketplace Actions, SDKs & Starter Templates
 
-1. **[PayGate USDT v2.8.0 (`EzequielLech/paygate-usdt`)](https://github.com/EzequielLech/paygate-usdt)** — Non-custodial crypto & stablecoin payment gateway across Base, Polygon, Arbitrum, BSC (BEP-20), Ethereum, Solana SPL, and Bitcoin Taproot (`bc1p...`) with 0% custody and no bank or Stripe KYC:
-   - **Official MCP Registry**: `io.github.EzequielLech/paygate-usdt` ([Rated Grade-A `4.1/5.0` on Glama](https://glama.ai/mcp/connectors/io.github.EzequielLech/paygate-usdt))
-   - **Python & Zero-Dependency TypeScript/Node.js SDKs (`paygate_sdk` + `sdk-js/`)**: 1-line MCP tool monetization (`@mcp_tool_paywall` / `withMcpToolPaywall`) and HTTP 402 `x402 v2` route guards (`@require_usdt_payment` / `paygateExpressMiddleware`)
-   - **Hosted Multi-Asset Checkout (`/paygate/checkout/{id}`) & Self-Serve Merchant Dashboard (`/paygate/merchant`)**: 7-network switcher (`USDT/USDC` + 1-click native `ETH`, `BNB`, `POL`, `SOL`, `BTC` with live DeFiLlama spot quotes), zero-tx-hash on-chain transfer auto-detection, SHA-256 verifiable receipts, signed HMAC-SHA256 webhooks, and recurring SaaS subscriptions without `MAX_UINT256` token approvals
+1. **[PayGate USDT v2.9.0 (`EzequielLech/paygate-usdt`)](https://github.com/EzequielLech/paygate-usdt)** — Non-custodial 7-chain crypto payment gateway (`USDT`, `USDC`, `ETH`, `BNB`, `POL`, `SOL`, `Bitcoin Taproot`) with 0% platform cut and no Stripe or bank KYC:
+   - **GitHub Marketplace Action:** [PayGate x402 & Crypto Checkout Gate](https://github.com/marketplace/actions/paygate-x402-crypto-checkout-gate)
+   - **1-Click GitHub Starter Template:** [EzequielLech/x402-mcp-paywall-starter](https://github.com/EzequielLech/x402-mcp-paywall-starter) (Python FastAPI + Node.js 18+ ESM + MCP)
+   - **Official MCP Registry & `npx` Zero-Install:** `npx -y github:EzequielLech/paygate-usdt` · Remote HTTP: `https://chainguard-studio-production.up.railway.app/paygate/mcp`
+   - **Capabilities:** 1-Click MetaMask & Phantom checkout (`wallet_addEthereumChain` + mobile wallet deep-links), in-page glassmorphic modal (`widget.js`), reusable personal/FUNDING.yml storefronts (`/paygate/me/{wallet}`), buyer `@telegram`/email intake, zero-tx-hash RPC auto-detection, and signed `HMAC-SHA256` webhooks.
 
-2. **[ChainGuard MCP v1.4.1 (`EzequielLech/chainguard-mcp`)](https://github.com/EzequielLech/chainguard-mcp)** — 15-tool Web3 security firewall, GitHub Action CI security gate, DeFiLlama yield scanner, ERC-20 allowance revoker, and vault recovery MCP server:
-   - **Official MCP Registry**: `io.github.EzequielLech/chainguard-mcp` ([Rated Grade-A `4.2/5.0` on Glama](https://glama.ai/mcp/connectors/io.github.EzequielLech/chainguard-mcp))
-   - **GitHub Action CI Security Gate**: `uses: EzequielLech/chainguard-mcp@v1.4.1` + `chainguard-mcp scan-dir . --fail-on-block --markdown` with native OASIS SARIF 2.1.0 GitHub Code Scanning export (`--sarif`) to block `tx.origin`, `selfdestruct`, unchecked `delegatecall`, reentrancy, invisible Unicode smuggling, and leaked keys on pull requests
-   - **Hosted Remote Streamable-HTTP MCP (`2025-06-18`) & Offline CLI**: `https://chainguard-studio-production.up.railway.app/mcp` (EIP-7702 delegation hijack detection, Solana Token-2022 drainer audit, ERC-20 `approve(spender, 0)` revocation builder, and 8-chain dust/hygiene recovery)
+2. **[ChainGuard MCP v1.5.0 (`EzequielLech/chainguard-mcp`)](https://github.com/EzequielLech/chainguard-mcp)** — 15-tool Web3 & AI security firewall, Solidity SARIF 2.1.0 CI gate, 24/7 drainer watchdog, and vault recovery MCP server:
+   - **GitHub Marketplace Action:** [ChainGuard Web3 & MCP Security Gate](https://github.com/marketplace/actions/chainguard-web3-mcp-security-gate)
+   - **1-Click GitHub Starter Template:** [EzequielLech/solidity-sarif-security-starter](https://github.com/EzequielLech/solidity-sarif-security-starter) (Solidity 0.8.24 + Foundry + SARIF 2.1.0 + `.mcp.json`)
+   - **Official MCP Registry & `npx` Zero-Install:** `npx -y github:EzequielLech/chainguard-mcp` · Remote HTTP: `https://chainguard-studio-production.up.railway.app/mcp`
+   - **Capabilities:** Automated PR scanning (`tx.origin`, `selfdestruct`, unchecked `delegatecall`, reentrancy, Unicode tool poisoning, leaked keys), dynamic repository SVG trust badges (`/api/v1/repo-badge/{owner}/{repo}.svg`), EIP-7702 delegation hijack shield, Solana Token-2022 auditor, and 8-chain EVM dust/rent recovery (`/recover`).
 
 ---
 
-#### Instant Self-Serve Passes, White-Label Licensing & Custom B2B Engineering
+#### Self-Serve Licenses, Security Certifications & B2B Engineering
 
-All checkouts accept **USDC, USDT, and native ETH, BNB, POL, SOL, or BTC** across Base, Polygon, Arbitrum, BSC, Ethereum, Solana, and Bitcoin with instant automated on-screen `cg_live_` API key delivery upon 1 block confirmation:
+All plans settle **100% non-custodially** across **Base, Polygon, Arbitrum, BNB Chain, Ethereum, Solana, and Bitcoin** with automated SHA-256 receipts upon 1st block confirmation:
 
-| Plan / Service | Settlement | Deliverables | Direct 1-Click Checkout |
+| Product / License | Settlement | Deliverables | Direct Link |
 |---|---|---|---|
-| **24-Hour Micro-Unlock Pass** | **$0.50** | 50 Pro MCP & REST calls (24h), full vulnerability patches & 25 DeFi pools | [Launch $0.50 Checkout](https://chainguard-studio-production.up.railway.app/paygate/pay?merchant=0x4Ed4D0750453C027FA8398067d5af980Bcc9B6eD&amount=0.5&network=base&title=ChainGuard+24h+Micro+Unlock+Pass&issue_pass=1&billing_days=1) |
-| **7-Day Starter MCP & Pro API Pass** | **$2.00** | 250 Pro MCP & REST calls (7 days) + full 8-chain portfolio & allowance scanner | [Launch $2.00 Checkout](https://chainguard-studio-production.up.railway.app/paygate/pay?merchant=0x4Ed4D0750453C027FA8398067d5af980Bcc9B6eD&amount=2&network=base&title=ChainGuard+7-Day+Starter+MCP+Pass&issue_pass=1&billing_days=7) |
-| **30-Day Unlimited MCP & Cloud Pro Pass** | **$9.00** | Unlimited `/mcp` calls + 1,000 REST calls + unlimited hosted PayGate Cloud merchant settlements (30 days) | [Launch $9.00 Checkout](https://chainguard-studio-production.up.railway.app/paygate/pay?merchant=0x4Ed4D0750453C027FA8398067d5af980Bcc9B6eD&amount=9&network=base&title=ChainGuard+Unlimited+MCP+Pass&issue_pass=1&billing_days=30) |
-| **PayGate Lifetime White-Label License** | **$79.00** | Unlimited merchants/members + 25,000-call Master API Key (10-year validity) | [Launch $79.00 Checkout](https://chainguard-studio-production.up.railway.app/paygate/pay?merchant=0x4Ed4D0750453C027FA8398067d5af980Bcc9B6eD&amount=79&network=polygon&title=PayGate+Lifetime+White-Label+License&issue_pass=1&billing_days=3650) |
-| **Turnkey B2B Payment Gateway Deployment** | **$199.00** ($99 Deposit) | Dedicated multi-chain PayGate + Telegram VIP + webhook integration deployed on your infra | [Pay $99 Deposit](https://chainguard-studio-production.up.railway.app/paygate/pay?merchant=0x4Ed4D0750453C027FA8398067d5af980Bcc9B6eD&amount=99&network=polygon&title=Turnkey+VIP+Gate+Deployment+50pct+Deposit&issue_pass=1) · [Scope](https://chainguard-studio-production.up.railway.app/paygate#b2b) |
-| **Custom Crypto Bot + Exchange/API Automation** | **$499.00** ($249 Deposit) | Custom Python/TypeScript Web3 agent, MCP server, or trading/execution workflow | [Pay $249 Deposit](https://chainguard-studio-production.up.railway.app/paygate/pay?merchant=0x4Ed4D0750453C027FA8398067d5af980Bcc9B6eD&amount=249&network=polygon&title=Custom+Bot+%2B+Exchange+API+50pct+Deposit&issue_pass=1) · [Open B2B Issue](https://github.com/EzequielLech/paygate-usdt/issues/new?template=b2b_custom_deployment.yml) |
+| **Cloud Pro & Unlimited MCP Pass** | **$9.00 / 30d** | Unlimited `/mcp` calls, 1,000 Pro REST calls & unlimited hosted PayGate Cloud settlements | [Activate Cloud Pro ($9)](https://chainguard-studio-production.up.railway.app/paygate/pay?merchant=0x4Ed4D0750453C027FA8398067d5af980Bcc9B6eD&amount=9&network=base&title=PayGate+Cloud+Pro+30d&issue_pass=1&billing_days=30) |
+| **On-Chain Verified Repo Security Badge** | **$19.00** | Upgrades `/api/v1/repo-badge/{owner}/{repo}.svg` to emerald `ChainGuard Verified` + SHA-256 certificate | [Certify Repository ($19)](https://chainguard-studio-production.up.railway.app/solidity-security-audit-badge) |
+| **24/7 DeFi Frontend & Proxy Watchdog** | **$29.00 / 30d** | Continuous 5-minute SHA-256 script & EIP-1967 proxy monitoring with instant webhook/Telegram alerts | [Configure Watchdog ($29)](https://chainguard-studio-production.up.railway.app/#console) |
+| **Grant & Investor Audit Dossier** | **$49.00** | Full Solidity/MCP remediation code patches + downloadable audit dossier for ecosystem grants + 5,000 API calls | [Scan & Unlock Dossier ($49)](https://chainguard-studio-production.up.railway.app/#console) |
+| **PayGate Lifetime White-Label License** | **$79.00** | Removes all PayGate branding across checkouts & storefronts forever + 25,000-call Master API Key | [Buy Lifetime License ($79)](https://chainguard-studio-production.up.railway.app/paygate/pay?merchant=0x4Ed4D0750453C027FA8398067d5af980Bcc9B6eD&amount=79&network=base&title=PayGate+Lifetime+White-Label+License&issue_pass=1&billing_days=3650) |
+| **Turnkey VIP Bot / Custom B2B Gateway** | **$199 – $499** ($99 Deposit) | 24-hour done-for-you Telegram VIP payment bot, SaaS webhook billing, or custom x402/MCP deployment | [Start B2B Kickoff ($99)](https://chainguard-studio-production.up.railway.app/paygate#b2b) |
 
-- **Self-Serve Merchant Revenue Dashboard**: [https://chainguard-studio-production.up.railway.app/paygate/merchant](https://chainguard-studio-production.up.railway.app/paygate/merchant)
-- **Direct On-Chain Settlement Wallets (Self-Custody)**:
-  - **EVM (`ETH`, `BNB`, `POL`, `USDC`, `USDT` on Base, Arbitrum, Polygon, BSC, Ethereum)**: `0x4Ed4D0750453C027FA8398067d5af980Bcc9B6eD`
-  - **Solana (`SOL`, `USDC`, `USDT`)**: `3fZSMAyCEMhZwWiynbJDjoYNUT97aiV9BLzoUNroEMAz`
-  - **Bitcoin (`BTC` Taproot Bech32m)**: `bc1p980u6y2m768yrhcy5u3llas49w2wpsnselp7sqetn43vnetzqkdqypjcgk`
-
----
-
-#### Technical Stack
-`Python 3.10+` · `TypeScript / Node.js ESM` · `FastAPI` · `MCP (2025-06-18)` · `x402 v2` · `EVM JSON-RPC` · `Solana SPL / Token-2022` · `Bitcoin Taproot` · `GitHub Actions CI` · `SQLite` · `Docker`
+- **Direct Self-Custody Settlement Wallets:**
+  - **EVM (`ETH`, `BNB`, `POL`, `USDC`, `USDT`):** `0x4Ed4D0750453C027FA8398067d5af980Bcc9B6eD`
+  - **Solana (`SOL`, `USDC`, `USDT`):** `3fZSMAyCEMhZwWiynbJDjoYNUT97aiV9BLzoUNroEMAz`
+  - **Bitcoin (`BTC` Taproot Bech32m):** `bc1p980u6y2m768yrhcy5u3llas49w2wpsnselp7sqetn43vnetzqkdqypjcgk`
